@@ -1,0 +1,7 @@
+<h> 新規 </h>
+
+<%= form_tag("/create") do %>
+<%= text_field :text, :title, id: "title"%>
+<%= text_field :text, :body, id: "content"%>
+<%= submit_tag "create" %>
+<% end %>
