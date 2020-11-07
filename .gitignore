@@ -40,3 +40,6 @@ kadai2/
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+[core]
+excludesfile = /Users/test/.gitignore
